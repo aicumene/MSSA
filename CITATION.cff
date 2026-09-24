@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: >-
+  If you use MSSA, please cite the preprint below. Once the peer-reviewed
+  article is published, please cite the journal version instead.
+title: "MSSA — Multichannel Singular Spectrum Analysis"
+abstract: >-
+  Block-Hankel embedding, Bai–Yin epsilon-rank and TLS-ESPRIT for
+  oscillatory-mode extraction and signal-subspace geometry in multichannel
+  time series (EEG, MEG, and other signals).
+type: software
+authors:
+  - family-names: Bernadotte
+    given-names: Alexandra
+    affiliation: AiCumene
+  - family-names: Menshikov
+    given-names: Ivan
+    affiliation: AiCumene
+version: 0.1.0
+license: PolyForm-Noncommercial-1.0.0
+url: "https://research.aicumene.com/papers/MSSA/"
+repository-code: "https://github.com/aicumene/MSSA"
+keywords:
+  - singular spectrum analysis
+  - Hankel embedding
+  - ESPRIT
+  - intrinsic dimension
+  - oscillatory modes
+  - subspace geometry
+  - EEG
+  - MEG
+  - brain-computer interface
+preferred-citation:
+  type: article
+  title: "Multichannel Singular Spectrum Analysis"
+  authors:
+    - family-names: Bernadotte
+      given-names: Alexandra
+      affiliation: AiCumene
+    - family-names: Menshikov
+      given-names: Ivan
+      affiliation: AiCumene
+  year: 2026
+  url: "https://research.aicumene.com/papers/MSSA/"
+  notes: >-
+    Preprint (2026). A peer-reviewed article is forthcoming; once published,
+    cite the journal version and its DOI.
