@@ -127,14 +127,14 @@ Foundational methods:
 
 ## Citation
 
-If you use MSSA, please cite:
+**For now, please cite the preprint:**
 
 > Bernadotte, A. & Menshikov, I. *Multichannel Singular Spectrum Analysis.*
 > Aicumene. Preprint. 2026. https://research.aicumene.com/papers/MSSA/
 
-The preprint will be posted shortly, and a **peer-reviewed article is
-forthcoming** — please cite the published journal version once it is available.
-A DOI and a machine-readable `CITATION.cff` will be added then.
+A **peer-reviewed article is forthcoming**; once it is published, please cite the
+journal version instead. The preprint will be posted shortly; a DOI and a
+machine-readable `CITATION.cff` will be added then.
 
 ## License
 
