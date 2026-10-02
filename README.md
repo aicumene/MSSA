@@ -16,7 +16,7 @@ real-time EEG denoising, EEG source counting for brain–computer interfaces, an
 subspace-based time-series classification.
 
 > **Authors:** Alexandra Bernadotte and Ivan Menshikov (AiCumene).
-> **Preprint (forthcoming):** https://research.aicumene.com/papers/MSSA/
+> **Preprint:** [`paper/paper.pdf`](paper/paper.pdf) (AiCumene:2026.044v1) · https://research.aicumene.com/papers/MSSA/
 
 ## Why MSSA
 
@@ -57,26 +57,44 @@ than by the ambient embedding dimension.
 ## Install
 
 ```bash
-pip install numpy        # scipy optional
-pip install -e .         # from the repository root
+pip install "aicumene-mssa @ git+https://github.com/aicumene/MSSA.git"
+# or, from a clone of this repository:
+pip install -e .
 ```
 
 ## Quickstart
 
 ```python
 import numpy as np
-from mssa import MSSA
+from aicumene_mssa import MSSA, estimate_rank_bai_yin
 
 fs = 100.0
-X = eeg_window                                   # (n_samples, n_channels)
+t = np.arange(1000) / fs
+x = np.vstack([                                   # (n_channels, n_samples)
+    np.sin(2*np.pi*8*t) + 0.5*np.sin(2*np.pi*17*t),
+    0.8*np.sin(2*np.pi*8*t + 0.2) + 0.4*np.sin(2*np.pi*17*t - 0.3),
+]) + 0.3*np.random.default_rng(0).standard_normal((2, t.size))
 
-m  = MSSA(window=12, rank_method="epsilon", center=True).fit(X)   # Hankel + ε-rank subspace
-md = m.esprit(fs=fs, method="tls")               # TLS-ESPRIT poles
+m = MSSA(window_length=60).fit(x)                 # block-Hankel embedding + lagged-scatter decomposition
+est = estimate_rank_bai_yin(m.hankel_, finite_sample_correction=0.15)   # noise-calibrated rank
 
-m.rank            # estimated signal-subspace rank r̂ (= 2 × #oscillator pairs)
-md.frequency      # mode frequencies (Hz)
-md.damping        # damping / growth rates
+est.rank                                          # signal-subspace rank (= 2 x number of oscillators)
+m.signal_subspace(est.rank)                       # basis of the signal subspace
+m.reconstruct(range(est.rank))                    # denoised recording
 ```
+
+Pole extraction (ESPRIT), per-channel amplitudes and source localization built on this
+layer are in [`paper/experiments/loc_common.py`](paper/experiments/loc_common.py);
+oscillator counting is in [BOID](https://github.com/aicumene/BOID).
+
+## Repository layout
+
+| path | contents |
+|---|---|
+| `src/aicumene_mssa/` | the package `aicumene-mssa`: block-Hankel embedding, lagged-scatter decomposition, noise-calibrated rank, reconstruction, soft-rank diagnostics |
+| `tests/`, `examples/` | unit tests and a minimal example |
+| `paper/` | the preprint *Multichannel Singular Spectrum Analysis* (`paper.pdf`, `paper.tex`, figures) |
+| `paper/experiments/` | scripts and numerical results behind the figures and tables of the preprint |
 
 ## Applications
 
@@ -133,12 +151,12 @@ Foundational methods:
 > Aicumene. Preprint. 2026. https://research.aicumene.com/papers/MSSA/
 
 A **peer-reviewed article is forthcoming**; once it is published, please cite the
-journal version instead. The preprint will be posted shortly; a DOI and a
-machine-readable `CITATION.cff` will be added then.
+journal version instead. The preprint is in [`paper/`](paper/); a machine-readable
+citation is in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
 **PolyForm Noncommercial License 1.0.0** — free for noncommercial use (research,
 education, personal and nonprofit); commercial use requires a separate license
 from the authors. Copyright © 2026 Alexandra Bernadotte and Ivan Menshikov
-(AiCumene). See `LICENSE`.
+(AiCumene). See [`LICENSE.md`](LICENSE.md).

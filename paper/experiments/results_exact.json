@@ -1,0 +1,71 @@
+{
+ "rank": {
+  "three_distinct": 6,
+  "two_share_pole": 4,
+  "same_freq_diff_damping": 6,
+  "rank_S_shared": 3
+ },
+ "loadings": [
+  {
+   "ratio": 1.0,
+   "ls_max": 3.3306690738754696e-16,
+   "svd_median": 0.050315542081079356,
+   "svd_max": 0.10643324388979547
+  },
+  {
+   "ratio": 1.05,
+   "ls_max": 3.3306690738754696e-16,
+   "svd_median": 0.016545688104179057,
+   "svd_max": 0.04573069962780796
+  },
+  {
+   "ratio": 1.5,
+   "ls_max": 4.440892098500626e-16,
+   "svd_median": 0.00021132311413163407,
+   "svd_max": 0.0006983869177252799
+  },
+  {
+   "ratio": 3.0,
+   "ls_max": 3.3306690738754696e-16,
+   "svd_median": 1.4139763060916355e-05,
+   "svd_max": 5.803813834859284e-05
+  }
+ ],
+ "ambiguity_1_minus_cos": {
+  "circle_power0.5": 0.0,
+  "circle_power1.0": 1.1102230246251565e-16,
+  "circle_power2.0": 1.1102230246251565e-16,
+  "circle_exponential": 0.0860340417210137,
+  "grid_power1_inverse_point": 0.2504180702941189,
+  "three_sensors_power1": -2.220446049250313e-16,
+  "line_mirror_power1": 2.220446049250313e-16,
+  "line_mirror_exponential": 0.0
+ },
+ "exponential_three_sensors_second_solution": {
+  "tried": 200,
+  "found": 6
+ },
+ "exponential_four_sensors_second_solution": {
+  "tried": 200,
+  "found": 0
+ },
+ "shared_pole": {
+  "plane_residual_max": 8.77314312311979e-16,
+  "scan_error_median": 1.077467878275007e-13,
+  "scan_error_max": 1.9398408944306992e-10,
+  "scan_fail_frac": 0.0,
+  "single_fingerprint_error_median": 0.12319404328524643
+ },
+ "closed_form_max_error": {
+  "power": 9.421863071635673e-15,
+  "exponential": 1.854479598996279e-14
+ },
+ "differential_smallest_singular_value": {
+  "circle_through_q": 5.130921565205333e-16,
+  "line_through_q": 0.0,
+  "circle_not_through_q": 0.6480232223456289,
+  "grid": 0.9128065588654541,
+  "circle_through_q_exponential": 0.20676701338796605
+ },
+ "sphere_3d_inverse_1_minus_cos": 0.0
+}

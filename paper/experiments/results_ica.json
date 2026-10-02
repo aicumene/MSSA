@@ -1,0 +1,185 @@
+{
+ "kappa95": 0.1408522707866277,
+ "two_sources_one_band": [
+  {
+   "snr0": 10.0,
+   "kind": "sinusoids in quadrature",
+   "source_correlation": 3.5165204081977208e-15,
+   "rank_median": 2.0,
+   "mssa": {
+    "median": 0.006720190984604773,
+    "gross": 0.01
+   },
+   "music": {
+    "median": 0.006591389525120936,
+    "gross": 0.01
+   },
+   "ica": {
+    "median": 0.11498471754106801,
+    "gross": 0.555
+   },
+   "sobi": {
+    "median": 0.11127308236744377,
+    "gross": 0.57
+   }
+  },
+  {
+   "snr0": 10.0,
+   "kind": "sinusoids 20 degrees apart",
+   "source_correlation": 0.939692620785909,
+   "rank_median": 2.0,
+   "mssa": {
+    "median": 0.023938630779080882,
+    "gross": 0.02
+   },
+   "music": {
+    "median": 0.02665410050183843,
+    "gross": 0.03
+   },
+   "ica": {
+    "median": 0.1815329622467992,
+    "gross": 0.915
+   },
+   "sobi": {
+    "median": 0.19219772398467833,
+    "gross": 0.92
+   }
+  },
+  {
+   "snr0": 10.0,
+   "kind": "independent bursts",
+   "source_correlation": 0.36898138102888733,
+   "rank_median": 19.0,
+   "mssa": {
+    "median": 0.014607896069749014,
+    "gross": 0.03
+   },
+   "music": {
+    "median": 0.007207774304848937,
+    "gross": 0.01
+   },
+   "ica": {
+    "median": 0.1217808886134608,
+    "gross": 0.595
+   },
+   "sobi": {
+    "median": 0.16121162074080905,
+    "gross": 0.65
+   }
+  },
+  {
+   "snr0": 10.0,
+   "kind": "independent Gaussian narrow-band",
+   "source_correlation": 0.14323925141771554,
+   "rank_median": 10.0,
+   "mssa": {
+    "median": 0.011286675737907419,
+    "gross": 0.0
+   },
+   "music": {
+    "median": 0.006826251250444374,
+    "gross": 0.0
+   },
+   "ica": {
+    "median": 0.11891591357836628,
+    "gross": 0.59
+   },
+   "sobi": {
+    "median": 0.12877519826659628,
+    "gross": 0.65
+   }
+  },
+  {
+   "snr0": 0.0,
+   "kind": "sinusoids in quadrature",
+   "source_correlation": 3.2256419757459296e-15,
+   "rank_median": 2.0,
+   "mssa": {
+    "median": 0.019364743407829975,
+    "gross": 0.015
+   },
+   "music": {
+    "median": 0.02014334005020148,
+    "gross": 0.015
+   },
+   "ica": {
+    "median": 0.11408883221472149,
+    "gross": 0.545
+   },
+   "sobi": {
+    "median": 0.1256099695601478,
+    "gross": 0.63
+   }
+  },
+  {
+   "snr0": 0.0,
+   "kind": "sinusoids 20 degrees apart",
+   "source_correlation": 0.9396926207859091,
+   "rank_median": 2.0,
+   "mssa": {
+    "median": 0.07907625557140888,
+    "gross": 0.375
+   },
+   "music": {
+    "median": 0.10227288593043823,
+    "gross": 0.515
+   },
+   "ica": {
+    "median": 0.17545415703123393,
+    "gross": 0.915
+   },
+   "sobi": {
+    "median": 0.2372339925614869,
+    "gross": 0.95
+   }
+  },
+  {
+   "snr0": 0.0,
+   "kind": "independent bursts",
+   "source_correlation": 0.3543173817680365,
+   "rank_median": 10.0,
+   "mssa": {
+    "median": 0.041579451772380115,
+    "gross": 0.145
+   },
+   "music": {
+    "median": 0.023389994077656916,
+    "gross": 0.045
+   },
+   "ica": {
+    "median": 0.13459311547283132,
+    "gross": 0.645
+   },
+   "sobi": {
+    "median": 0.16256910402505115,
+    "gross": 0.69
+   }
+  },
+  {
+   "snr0": 0.0,
+   "kind": "independent Gaussian narrow-band",
+   "source_correlation": 0.16432638844903824,
+   "rank_median": 8.0,
+   "mssa": {
+    "median": 0.042580572111141135,
+    "gross": 0.195
+   },
+   "music": {
+    "median": 0.020069563754375137,
+    "gross": 0.015
+   },
+   "ica": {
+    "median": 0.122856043363931,
+    "gross": 0.59
+   },
+   "sobi": {
+    "median": 0.13233497086328957,
+    "gross": 0.675
+   }
+  }
+ ],
+ "twelve_sources_nine_sensors": {
+  "mssa": 1.0,
+  "ica": 0.39416666666666667
+ }
+}

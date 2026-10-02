@@ -1,0 +1,61 @@
+{
+ "delta95": 0.11558218789065618,
+ "weak_source_rms_snr_db": -6.020599913279623,
+ "rows": [
+  {
+   "ratio": 1.0,
+   "mp_calibrated": {
+    "p_correct": 0.99,
+    "mean": 4.01
+   },
+   "shuffle": {
+    "p_correct": 1.0,
+    "mean": 4.0
+   }
+  },
+  {
+   "ratio": 3.0,
+   "mp_calibrated": {
+    "p_correct": 0.97,
+    "mean": 4.03
+   },
+   "shuffle": {
+    "p_correct": 1.0,
+    "mean": 4.0
+   }
+  },
+  {
+   "ratio": 10.0,
+   "mp_calibrated": {
+    "p_correct": 0.96,
+    "mean": 4.05
+   },
+   "shuffle": {
+    "p_correct": 0.0,
+    "mean": 2.0
+   }
+  },
+  {
+   "ratio": 30.0,
+   "mp_calibrated": {
+    "p_correct": 0.97,
+    "mean": 4.03
+   },
+   "shuffle": {
+    "p_correct": 0.0,
+    "mean": 2.0
+   }
+  },
+  {
+   "ratio": 100.0,
+   "mp_calibrated": {
+    "p_correct": 0.97,
+    "mean": 4.05
+   },
+   "shuffle": {
+    "p_correct": 0.0,
+    "mean": 2.0
+   }
+  }
+ ]
+}

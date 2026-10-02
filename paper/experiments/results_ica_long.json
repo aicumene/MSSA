@@ -1,0 +1,178 @@
+[
+ {
+  "N": 500,
+  "seconds": 5.0,
+  "kind": "independent bursts",
+  "source_correlation": 0.3880209402759469,
+  "music": {
+   "median": 0.007484736515004416,
+   "gross": 0.0
+  },
+  "ica": {
+   "median": 0.11915660199416671,
+   "gross": 0.57
+  },
+  "sobi": {
+   "median": 0.17265459238042008,
+   "gross": 0.69
+  },
+  "waveform_corr": {
+   "ica": 0.8765533509739711,
+   "sobi": 0.7518836002602545
+  }
+ },
+ {
+  "N": 500,
+  "seconds": 5.0,
+  "kind": "independent Gaussian narrow-band",
+  "source_correlation": 0.18028217125148904,
+  "music": {
+   "median": 0.006542198339648346,
+   "gross": 0.0
+  },
+  "ica": {
+   "median": 0.12335106528501212,
+   "gross": 0.61
+  },
+  "sobi": {
+   "median": 0.13636133154044686,
+   "gross": 0.66
+  },
+  "waveform_corr": {
+   "ica": 0.8684494972866595,
+   "sobi": 0.8571834106286482
+  }
+ },
+ {
+  "N": 2000,
+  "seconds": 20.0,
+  "kind": "independent bursts",
+  "source_correlation": 0.1848683943042656,
+  "music": {
+   "median": 0.00353972317620513,
+   "gross": 0.0
+  },
+  "ica": {
+   "median": 0.07713024268456167,
+   "gross": 0.45
+  },
+  "sobi": {
+   "median": 0.12596451125457642,
+   "gross": 0.58
+  },
+  "waveform_corr": {
+   "ica": 0.9327517115206752,
+   "sobi": 0.8722727989270284
+  }
+ },
+ {
+  "N": 2000,
+  "seconds": 20.0,
+  "kind": "independent Gaussian narrow-band",
+  "source_correlation": 0.06764204190601014,
+  "music": {
+   "median": 0.0032520175456376217,
+   "gross": 0.0
+  },
+  "ica": {
+   "median": 0.14635922155226344,
+   "gross": 0.66
+  },
+  "sobi": {
+   "median": 0.13086001779612746,
+   "gross": 0.61
+  },
+  "waveform_corr": {
+   "ica": 0.8746155082093983,
+   "sobi": 0.8988423783612854
+  }
+ },
+ {
+  "N": 6000,
+  "seconds": 60.0,
+  "kind": "independent bursts",
+  "source_correlation": 0.08605227420337205,
+  "music": {
+   "median": 0.002011627187292399,
+   "gross": 0.0
+  },
+  "ica": {
+   "median": 0.03661214113647763,
+   "gross": 0.19
+  },
+  "sobi": {
+   "median": 0.12746447129275204,
+   "gross": 0.62
+  },
+  "waveform_corr": {
+   "ica": 0.9797147747208956,
+   "sobi": 0.8879929820429575
+  }
+ },
+ {
+  "N": 6000,
+  "seconds": 60.0,
+  "kind": "independent Gaussian narrow-band",
+  "source_correlation": 0.04208081004902976,
+  "music": {
+   "median": 0.002432310437639797,
+   "gross": 0.03
+  },
+  "ica": {
+   "median": 0.10114097443982797,
+   "gross": 0.51
+  },
+  "sobi": {
+   "median": 0.11791380877835869,
+   "gross": 0.56
+  },
+  "waveform_corr": {
+   "ica": 0.9338292990894099,
+   "sobi": 0.9193847442684044
+  }
+ },
+ {
+  "N": 20000,
+  "seconds": 200.0,
+  "kind": "independent bursts",
+  "source_correlation": 0.04914588397490849,
+  "music": {
+   "median": 0.0011452006671348251,
+   "gross": 0.02
+  },
+  "ica": {
+   "median": 0.020849878005752973,
+   "gross": 0.01
+  },
+  "sobi": {
+   "median": 0.15631602313491022,
+   "gross": 0.72
+  },
+  "waveform_corr": {
+   "ica": 0.9880452614957309,
+   "sobi": 0.8518581884110314
+  }
+ },
+ {
+  "N": 20000,
+  "seconds": 200.0,
+  "kind": "independent Gaussian narrow-band",
+  "source_correlation": 0.02288295568902944,
+  "music": {
+   "median": 0.0010833703603449582,
+   "gross": 0.01
+  },
+  "ica": {
+   "median": 0.12322423970411471,
+   "gross": 0.59
+  },
+  "sobi": {
+   "median": 0.1357816032107788,
+   "gross": 0.61
+  },
+  "waveform_corr": {
+   "ica": 0.9126647974944984,
+   "sobi": 0.8969516089607301
+  }
+ }
+]

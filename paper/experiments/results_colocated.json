@@ -1,0 +1,61 @@
+{
+ "snr0": 10.0,
+ "rows": [
+  {
+   "separation": 0.25,
+   "placing": "same position",
+   "median": 0.5259920187804611,
+   "q90": 1.0,
+   "gross": 0.85
+  },
+  {
+   "separation": 0.25,
+   "placing": "different positions",
+   "median": 0.022868014014347918,
+   "q90": 0.06051197179104399,
+   "gross": 0.016666666666666666
+  },
+  {
+   "separation": 0.5,
+   "placing": "same position",
+   "median": 0.007656274387330392,
+   "q90": 0.03519759572754362,
+   "gross": 0.04666666666666667
+  },
+  {
+   "separation": 0.5,
+   "placing": "different positions",
+   "median": 0.008471154943357501,
+   "q90": 0.017287804869748506,
+   "gross": 0.0
+  },
+  {
+   "separation": 1.0,
+   "placing": "same position",
+   "median": 0.0037861593487978694,
+   "q90": 0.007046847910466421,
+   "gross": 0.0
+  },
+  {
+   "separation": 1.0,
+   "placing": "different positions",
+   "median": 0.004166625306559445,
+   "q90": 0.007365251010864853,
+   "gross": 0.0
+  },
+  {
+   "separation": 15.0,
+   "placing": "same position",
+   "median": 0.003908196837136742,
+   "q90": 0.007032039754563676,
+   "gross": 0.0
+  },
+  {
+   "separation": 15.0,
+   "placing": "different positions",
+   "median": 0.0040574898962522435,
+   "q90": 0.007470056178248089,
+   "gross": 0.0
+  }
+ ]
+}
