@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aicumene-mssa"
+version = "0.1.0"
+description = "Multichannel Singular Spectrum Analysis utilities for block-Hankel time-series decomposition"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "PolyForm-Noncommercial-1.0.0"}
+keywords = ["time-series", "singular-spectrum-analysis", "MSSA", "Hankel", "rank-estimation", "signal-processing"]
+authors = [{name="Alexandra Bernadotte"}, {name="Ivan Menshikov"}]
+dependencies = ["numpy>=1.26", "scipy>=1.11"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[project.urls]
+Homepage = "https://github.com/aicumene/MSSA"
+Preprint = "https://research.aicumene.com/papers/MSSA/"
