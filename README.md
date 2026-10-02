@@ -16,7 +16,7 @@ real-time EEG denoising, EEG source counting for brain–computer interfaces, an
 subspace-based time-series classification.
 
 > **Authors:** Alexandra Bernadotte and Ivan Menshikov (AiCumene).
-> **Preprint:** [`paper/paper.pdf`](paper/paper.pdf) (AiCumene:2026.044v1) · https://research.aicumene.com/papers/MSSA/
+> **Preprint:** [`paper/paper.pdf`](paper/paper.pdf) (AiCumene:2026.044v1) · https://research.aicumene.com/papers/MSSA/ · DOI: [10.13140/RG.2.2.26719.01442](https://doi.org/10.13140/RG.2.2.26719.01442)
 
 ## Why MSSA
 
@@ -148,7 +148,8 @@ Foundational methods:
 **For now, please cite the preprint:**
 
 > Bernadotte, A. & Menshikov, I. *Multichannel Singular Spectrum Analysis.*
-> Aicumene. Preprint. 2026. https://research.aicumene.com/papers/MSSA/
+> Aicumene. Preprint. 2026. DOI: 10.13140/RG.2.2.26719.01442.
+> https://research.aicumene.com/papers/MSSA/
 
 A **peer-reviewed article is forthcoming**; once it is published, please cite the
 journal version instead. The preprint is in [`paper/`](paper/); a machine-readable

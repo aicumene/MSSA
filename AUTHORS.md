@@ -15,4 +15,5 @@ The AiCumene MSSA software repository and the associated preprint are authored b
 Alexandra Bernadotte, Ivan Menshikov.  
 **Multichannel Singular Spectrum Analysis.**  
 Aicumene. Preprint. 2026.  
+DOI: 10.13140/RG.2.2.26719.01442  
 https://research.aicumene.com/papers/MSSA/

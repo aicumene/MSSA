@@ -2,9 +2,9 @@
 
 **Alexandra Bernadotte, Ivan Menshikov.** *Multichannel Singular Spectrum Analysis for Estimating Oscillatory Sources
 and Localizing Attenuating Oscillations.* Aicumene. Preprint. 2026 (AiCumene:2026.044v1).
-https://research.aicumene.com/papers/MSSA/
+DOI: [10.13140/RG.2.2.26719.01442](https://doi.org/10.13140/RG.2.2.26719.01442) · https://research.aicumene.com/papers/MSSA/
 
-Cite as: Bernadotte, A. & Menshikov, I. *Multichannel Singular Spectrum Analysis.* Aicumene. Preprint. 2026.
+Cite as: Bernadotte, A. & Menshikov, I. *Multichannel Singular Spectrum Analysis.* Aicumene. Preprint. 2026. DOI: 10.13140/RG.2.2.26719.01442.
 
 | file | contents |
 |---|---|
