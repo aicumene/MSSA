@@ -6,7 +6,7 @@ Licensed under the PolyForm Noncommercial License 1.0.0. Noncommercial use is fr
 
 **To cite this work** (for now, cite the preprint):
 
-> Bernadotte, A. & Menshikov, I. *Multichannel Singular Spectrum Analysis.* Aicumene. Preprint. 2026. DOI: 10.13140/RG.2.2.26719.01442. https://research.aicumene.com/papers/MSSA/
+> Bernadotte, A. & Menshikov, I. *Multichannel Singular Spectrum Analysis.* Aicumene. Preprint. 2026. DOI: https://doi.org/10.13140/RG.2.2.26719.01442 · https://research.aicumene.com/papers/MSSA/
 >
 > A peer-reviewed article is forthcoming; once published, cite the journal version.
 

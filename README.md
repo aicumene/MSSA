@@ -148,7 +148,7 @@ Foundational methods:
 **For now, please cite the preprint:**
 
 > Bernadotte, A. & Menshikov, I. *Multichannel Singular Spectrum Analysis.*
-> Aicumene. Preprint. 2026. DOI: 10.13140/RG.2.2.26719.01442.
+> Aicumene. Preprint. 2026. DOI: https://doi.org/10.13140/RG.2.2.26719.01442  
 > https://research.aicumene.com/papers/MSSA/
 
 A **peer-reviewed article is forthcoming**; once it is published, please cite the
