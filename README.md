@@ -15,8 +15,8 @@ It is the numerical core behind **BOID** (brain oscillator intrinsic dimension),
 real-time EEG denoising, EEG source counting for brain–computer interfaces, and
 subspace-based time-series classification.
 
-> **Authors:** Alexandra Bernadotte and Ivan Menshikov (AiCumene).
-> **Preprint:** [`paper/paper.pdf`](paper/paper.pdf) (AiCumene:2026.044v1) · https://research.aicumene.com/papers/MSSA/ · DOI: [10.13140/RG.2.2.26719.01442](https://doi.org/10.13140/RG.2.2.26719.01442)
+> **Authors:** Alexandra Bernadotte and Ivan Menshikov (Aicumene).
+> **Preprint:** *Multichannel Singular Spectrum Analysis: Counting Oscillatory Modes and Recovering Their Spatial Loadings*, [`paper/paper.pdf`](paper/paper.pdf) (Aicumene:2026.044v2, November 11, 2026; SSRN 7693202, https://ssrn.com/abstract=7693202); companion paper *From Oscillatory Modes to Source Geometry: Identifiability and Localization in Multichannel Time Series* (Aicumene:2026.058, forthcoming) · https://research.aicumene.com/papers/MSSA/ · version 1 (August 2026, as *Multichannel Singular Spectrum Analysis for Estimating Oscillatory Sources and Localizing Attenuating Oscillations*): DOI [10.13140/RG.2.2.26719.01442](https://doi.org/10.13140/RG.2.2.26719.01442)
 
 ## Why MSSA
 
@@ -160,4 +160,4 @@ citation is in [`CITATION.cff`](CITATION.cff).
 **PolyForm Noncommercial License 1.0.0** — free for noncommercial use (research,
 education, personal and nonprofit); commercial use requires a separate license
 from the authors. Copyright © 2026 Alexandra Bernadotte and Ivan Menshikov
-(AiCumene). See [`LICENSE.md`](LICENSE.md).
+(Aicumene). See [`LICENSE.md`](LICENSE.md).

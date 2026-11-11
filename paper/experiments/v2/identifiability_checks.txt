@@ -1,0 +1,28 @@
+(1) the counterexample: d = 2, four sensors on one branch of a hyperbola with foci q, q' -> identical normalized profiles
+   differences |x-q'|-|x-q| : [0.4 0.4 0.4 0.4]
+   collinear triple? min |det| over triples = 0.0462
+   ||g_q/|g_q| - g_q'/|g_q'| || = 4.1540741810552243e-16
+(2) sharpness of 2d+2 in the plane: five points lie on one branch of a hyperbola iff the configuration is ambiguous;
+    this is an open condition on the five points, so the ambiguous five-sensor configurations have positive measure
+   five points on a branch: ambiguous = True ; recovered foci [1.  0.3] [-0.  0.]
+   uniformly random five-point configurations in the unit square: 1202/20000 = 6.0 % ambiguous for the exponential law
+   six random points: 0/2000 lie on a common conic (expected 0)
+(3) d = 3: seven sensors on a hyperboloid sheet; Jacobian of |p_j-q'|-|p_j-q| = Delta in (q, q', Delta) and a nearby ambiguous configuration
+   singular values of the 7x7 Jacobian: min 0.0004, max 3.795; sensors perturbed by 1e-5: Newton residual 2.6e-16, |q-q'| = 1.0930 (was 1.0392), Delta = 0.3755 (was 0.35)
+   singular values of the 7x7 Jacobian: min 0.0012, max 4.126; sensors perturbed by 1e-5: Newton residual 3.0e-16, |q-q'| = 1.0384 (was 1.0392), Delta = 0.3496 (was 0.35)
+   singular values of the 7x7 Jacobian: min 0.0010, max 3.701; sensors perturbed by 1e-5: Newton residual 2.5e-16, |q-q'| = 1.0312 (was 1.0392), Delta = 0.3464 (was 0.35)
+   singular values of the 7x7 Jacobian: min 0.0025, max 3.812; sensors perturbed by 1e-5: Newton residual 2.7e-16, |q-q'| = 1.0414 (was 1.0392), Delta = 0.3511 (was 0.35)
+   singular values of the 7x7 Jacobian: min 0.0042, max 3.795; sensors perturbed by 1e-5: Newton residual 3.5e-16, |q-q'| = 1.0384 (was 1.0392), Delta = 0.3496 (was 0.35)
+(4) the checkable condition: rank of the Veronese matrix of monomials of degree <= 2
+   3x3 grid      : rank 6 of 6, kernel dimension 0
+   8 on a circle : rank 5 of 6, kernel dimension 1; the unique conic through the sensors is a ellipse/circle (eigenvalues of the quadratic part [1. 1.])
+   6 on a line   : rank 3 of 6, kernel dimension 3
+   6 random      : rank 6 of 6, kernel dimension 0
+(5) two sources in one mode: zeros of J(q) = 1 - |W^T g_q|^2/|g_q|^2 on a fine grid, 9-sensor grid, power law gamma=1
+   grid points with J < 1e-6: 2; they lie within 0.0000 of the two sources
+(6) noise floor: |rho_{L,K} - sigma^2| against the Frobenius bound sigma^2 mL sqrt((mL+kappa-2)/K) (Gaussian, kappa = 3), 20 trials
+   mL=  16 K=   2000 (mL)^2/K=  0.128: rho - sigma^2 = +0.1523 (MP edge excess 0.1869); root-mean-square Frobenius bound 1.475
+   mL=  16 K=  20000 (mL)^2/K=  0.013: rho - sigma^2 = +0.0458 (MP edge excess 0.0574); root-mean-square Frobenius bound 0.466
+   mL=  64 K=  20000 (mL)^2/K=  0.205: rho - sigma^2 = +0.1034 (MP edge excess 0.1163); root-mean-square Frobenius bound 3.649
+   mL=  64 K= 200000 (mL)^2/K=  0.020: rho - sigma^2 = +0.0351 (MP edge excess 0.0361); root-mean-square Frobenius bound 1.154
+   mL= 128 K= 200000 (mL)^2/K=  0.082: rho - sigma^2 = +0.0518 (MP edge excess 0.0512); root-mean-square Frobenius bound 3.251

@@ -1,0 +1,35 @@
+T = 300 trials per row; SNR_0 = 10 dB unless stated; errors in units of the array side
+
+(a) sensor-coordinate errors sigma_p (isotropic Gaussian, used coordinates = true + error):
+sigma_p   RMS(fine)  gross   predicted RMS from sensor errors alone
+ 0.000     0.0037    0.0%   nan
+ 0.005     0.0067    0.0%   0.0054
+ 0.010     0.0113    0.0%   0.0109
+ 0.020     0.0223    0.0%   0.0218
+ 0.050     0.0505    6.3%   0.0546
+ 0.100     0.0639   49.7%   0.1087
+
+(b) spatially correlated noise, Sigma_ij = exp(-|p_i-p_j|/l_c), equal variance; count with calibrated threshold:
+l_c    whiten  count==2  RMS(fine)  gross
+0.00   False    98.3%     0.0037    0.0%
+0.25   False    75.3%     0.0039    0.0%
+0.25   True     95.7%     0.0040    0.0%
+0.50   False     0.0%     0.0035    0.0%
+0.50   True     96.7%     0.0037    0.0%
+1.00   False     0.0%     0.0033    0.0%
+1.00   True     97.0%     0.0031    0.0%
+
+(c) propagation delays, arrival at sensor j delayed by rho_j / v (v in array sides per second), f in [8,15] Hz:
+v       in-phase test fails  RMS(fine) modulus-matching  gross   | real-part matching: RMS(fine) gross
+   inf     0.0%              0.0040             0.0%  |   0.0036    0.0%
+  50.0   100.0%              0.0040             0.0%  |   0.0271    0.0%
+  20.0   100.0%              0.0037             0.0%  |   0.0683   74.7%
+  10.0   100.0%              0.0037             0.0%  |   0.0748   98.7%
+   5.0   100.0%              0.0040             0.0%  |   0.0719   94.3%
+
+(d) reference: SNR_0 sweep without mismatch (count, localization):
+SNR_0=  0 dB: count==2  97.3%, RMS(fine) 0.0113, gross   0.0%
+SNR_0=  5 dB: count==2  97.0%, RMS(fine) 0.0066, gross   0.0%
+SNR_0= 10 dB: count==2  94.3%, RMS(fine) 0.0039, gross   0.0%
+SNR_0= 20 dB: count==2  95.7%, RMS(fine) 0.0013, gross   0.0%
+elapsed 677 s

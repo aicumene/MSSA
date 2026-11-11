@@ -1,6 +1,6 @@
-Copyright © 2026 Alexandra Bernadotte and Ivan Menshikov (AiCumene).
+Copyright © 2026 Alexandra Bernadotte and Ivan Menshikov (Aicumene).
 
-Required Notice: Copyright © 2026 Alexandra Bernadotte and Ivan Menshikov (AiCumene). https://research.aicumene.com/papers/MSSA/
+Required Notice: Copyright © 2026 Alexandra Bernadotte and Ivan Menshikov (Aicumene). https://research.aicumene.com/papers/MSSA/
 
 Licensed under the PolyForm Noncommercial License 1.0.0. Noncommercial use is free; for commercial use, contact the authors.
 

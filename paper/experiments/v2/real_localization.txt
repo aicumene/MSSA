@@ -1,0 +1,16 @@
+61 electrodes; forward-model check (series with factor 1 vs infinite medium): max relative error 2.93e-14
+grid of 1916 candidate positions
+
+control (co2c0000337), average of 10 trials: d_osc = 23; modes (Hz, |z|, energy, T/T95): 1.8 Hz |z|=0.996 E=236 T=468/79; 5.4 Hz |z|=0.993 E=62 T=282/79; 9.6 Hz |z|=0.988 E=151 T=955/79; 10.6 Hz |z|=0.998 E=28 T=296/79; 13.3 Hz |z|=0.981 E=43 T=102/79; 19.8 Hz |z|=0.994 E=14 T=134/79; 26.3 Hz |z|=0.979 E=50 T=156/79
+   band slow: mode 1.8 Hz, quadrature share 0.08; dipole on the in-phase part at (+0.02, +0.09, +0.22), |q| = 0.24, explained 0.916, moment direction [0.14 0.99 0.09]; complex-moment dipole at (+0.04, +0.08, +0.24), explained 0.874
+      single trials with a mode in the band: 10 of 10; frequencies [2.2 2.6 0.9 1.  1.5 0.7 1.5 1.9 1.5 1.8]; explained [0.82 0.96 0.85 0.74 0.98 0.62 0.91 0.78 0.92 0.88]; mean position (+0.10, -0.02, -0.20), |mean| = 0.22, rms spread 0.43, mean to average-trial fit 0.44
+   band alpha: mode 9.6 Hz, quadrature share 0.45; dipole on the in-phase part at (+0.36, -0.83, +0.19), |q| = 0.92, explained 0.500, moment direction [ 0.49 -0.79 -0.37]; complex-moment dipole at (+0.06, -0.33, +0.38), explained 0.577
+      single trials with a mode in the band: 10 of 10; frequencies [ 8.6  9.6 12.5 11.3 10.2  9.3  9.7 10.3 10.9 10. ]; explained [0.92 0.69 0.94 0.6  0.92 0.78 0.85 0.93 0.82 0.81]; mean position (-0.02, -0.24, +0.28), |mean| = 0.37, rms spread 0.23, mean to average-trial fit 0.70
+
+alcoholic (co2a0000364), average of 10 trials: d_osc = 7; modes (Hz, |z|, energy, T/T95): 2.9 Hz |z|=0.996 E=655 T=409/79; 3.3 Hz |z|=1.001 E=150 T=151/79; 23.3 Hz |z|=0.993 E=14 T=54/79
+   band slow: mode 2.9 Hz, quadrature share 0.12; dipole on the in-phase part at (+0.00, +0.36, -0.03), |q| = 0.36, explained 0.912, moment direction [ 0.14 -0.89  0.44]; complex-moment dipole at (+0.01, +0.35, -0.06), explained 0.879
+      single trials with a mode in the band: 9 of 10; frequencies [2.5 2.2 1.8 4.1 2.3 3.1 1.  4.2 3.9]; explained [0.94 0.91 0.93 0.84 0.34 0.52 0.73 0.97 0.86]; mean position (-0.00, +0.15, -0.03), |mean| = 0.15, rms spread 0.38, mean to average-trial fit 0.21
+   band alpha: no mode in the average trial
+      single trials with a mode in the band: 3 of 10; frequencies [10.9  9.1 11.6]; explained [0.89 0.48 0.53]; mean position (+0.12, +0.08, +0.09), |mean| = 0.17, rms spread 0.54
+fits written to real_localization_fits.json
+saved /Users/alexa/Desktop/горячие_статьи_в_работе/2026_MSSA/MSSA_Aicumene_2026_044v2_SSRN/fig8_real_localization.png

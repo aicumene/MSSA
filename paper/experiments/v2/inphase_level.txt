@@ -1,0 +1,5 @@
+nominal level 5 %: chi2_8 95 % point 15.49; 1000 trials per cell
+SNR_0  | one in-phase source: rejection rate, pole by ESPRIT | pole known | two sources in quadrature (power), ESPRIT
+   0 dB |   4.4 %                                   |   4.5 %    |  99.3 %
+  10 dB |   6.1 %                                   |   6.2 %    | 100.0 %
+  20 dB |   6.4 %                                   |   6.4 %    | 100.0 %

@@ -11,10 +11,10 @@ type: software
 authors:
   - family-names: Bernadotte
     given-names: Alexandra
-    affiliation: AiCumene
+    affiliation: Aicumene
   - family-names: Menshikov
     given-names: Ivan
-    affiliation: AiCumene
+    affiliation: Aicumene
 version: 0.1.0
 license: PolyForm-Noncommercial-1.0.0
 url: "https://research.aicumene.com/papers/MSSA/"
@@ -31,17 +31,22 @@ keywords:
   - brain-computer interface
 preferred-citation:
   type: article
-  title: "Multichannel Singular Spectrum Analysis"
+  title: "Multichannel Singular Spectrum Analysis: Counting Oscillatory Modes and Recovering Their Spatial Loadings"
   authors:
     - family-names: Bernadotte
       given-names: Alexandra
-      affiliation: AiCumene
+      affiliation: Aicumene
     - family-names: Menshikov
       given-names: Ivan
-      affiliation: AiCumene
+      affiliation: Aicumene
   year: 2026
-  doi: "10.13140/RG.2.2.26719.01442"
-  url: "https://research.aicumene.com/papers/MSSA/"
+  doi: "10.2139/ssrn.7693202"
+  url: "https://ssrn.com/abstract=7693202"
   notes: >-
-    Preprint (2026). A peer-reviewed article is forthcoming; once published,
-    cite the journal version and its DOI.
+    Aicumene Preprint 2026.044v2, SSRN working paper 7693202 (November 11,
+    2026). Version 1 (August 2026, titled Multichannel Singular Spectrum
+    Analysis for Estimating Oscillatory Sources and Localizing Attenuating
+    Oscillations) has doi:10.13140/RG.2.2.26719.01442. The companion paper
+    From Oscillatory Modes to Source Geometry is Aicumene Preprint 2026.058.
+    A peer-reviewed article is forthcoming; once published, cite the journal
+    version and its DOI.
