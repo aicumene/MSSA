@@ -1,8 +1,8 @@
 # Preprint
 
 **Alexandra Bernadotte, Ivan Menshikov.** *Multichannel Singular Spectrum Analysis: Counting Oscillatory Modes and Recovering
-Their Spatial Loadings.* Aicumene Preprint 2026.044v2, November 11, 2026; SSRN working paper, submitted (number to be added). Companion paper:
-*From Oscillatory Modes to Source Geometry: Identifiability and Localization in Multichannel Time Series*, Aicumene Preprint 2026.058v1, SSRN working paper 7693202, https://ssrn.com/abstract=7693202, doi:10.2139/ssrn.7693202 (`../paper_geometry/`).
+Their Spatial Loadings.* Aicumene Preprint 2026.044v2, November 11, 2026; SSRN working paper 7693202, https://ssrn.com/abstract=7693202, doi:10.2139/ssrn.7693202. Companion paper:
+*From Oscillatory Modes to Source Geometry: Identifiability and Localization in Multichannel Time Series*, Aicumene Preprint 2026.058 (forthcoming).
 https://research.aicumene.com/papers/MSSA/
 Version 1 (August 12, 2026) appeared as *Multichannel Singular Spectrum Analysis for Estimating Oscillatory Sources and
 Localizing Attenuating Oscillations*, DOI: [10.13140/RG.2.2.26719.01442](https://doi.org/10.13140/RG.2.2.26719.01442).

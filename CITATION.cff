@@ -40,15 +40,13 @@ preferred-citation:
       given-names: Ivan
       affiliation: Aicumene
   year: 2026
-  url: "https://research.aicumene.com/papers/MSSA/"
+  doi: "10.2139/ssrn.7693202"
+  url: "https://ssrn.com/abstract=7693202"
   notes: >-
-    Aicumene Preprint 2026.044v2 (November 11, 2026); SSRN working paper,
-    submitted (number to be added). Version 1 (August 2026, titled
-    Multichannel Singular Spectrum Analysis for Estimating Oscillatory
-    Sources and Localizing Attenuating Oscillations) has
-    doi:10.13140/RG.2.2.26719.01442. The companion paper From Oscillatory
-    Modes to Source Geometry: Identifiability and Localization in
-    Multichannel Time Series is Aicumene Preprint 2026.058v1, SSRN working
-    paper 7693202, doi:10.2139/ssrn.7693202 (paper_geometry/paper.pdf).
+    Aicumene Preprint 2026.044v2, SSRN working paper 7693202 (November 11,
+    2026). Version 1 (August 2026, titled Multichannel Singular Spectrum
+    Analysis for Estimating Oscillatory Sources and Localizing Attenuating
+    Oscillations) has doi:10.13140/RG.2.2.26719.01442. The companion paper
+    From Oscillatory Modes to Source Geometry is Aicumene Preprint 2026.058.
     A peer-reviewed article is forthcoming; once published, cite the journal
     version and its DOI.
