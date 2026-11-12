@@ -26,3 +26,7 @@
    mL=  64 K=  20000 (mL)^2/K=  0.205: rho - sigma^2 = +0.1034 (MP edge excess 0.1163); root-mean-square Frobenius bound 3.649
    mL=  64 K= 200000 (mL)^2/K=  0.020: rho - sigma^2 = +0.0351 (MP edge excess 0.0361); root-mean-square Frobenius bound 1.154
    mL= 128 K= 200000 (mL)^2/K=  0.082: rho - sigma^2 = +0.0518 (MP edge excess 0.0512); root-mean-square Frobenius bound 3.251
+(7) sharpness of 2d+2 in every dimension: the planar 5x5 Jacobian of the system |p_j-q'|-|p_j-q| = Delta at five points of the
+    hyperbola branch x = a cosh s, y = b sinh s (a = 1, c = 2, foci (-c,0), (c,0)), evaluated to 40 digits
+   s = [-1.5, -0.7, 0.2, 0.9, 1.6]: det = 0.0320490390544813
+   s = [-1, -0.5, 0, 0.5, 1]: det = 0.00347812146900323

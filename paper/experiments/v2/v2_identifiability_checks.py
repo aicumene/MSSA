@@ -117,3 +117,16 @@ for mL, K in ((16, 2000), (16, 20000), (64, 20000), (64, 200000), (128, 200000))
         dev.append(np.linalg.eigvalsh(H @ H.T / K)[-1] - 1.0)
     bound = mL*np.sqrt((mL+1)/K)
     print(f"   mL={mL:4d} K={K:7d} (mL)^2/K={mL*mL/K:7.3f}: rho - sigma^2 = {np.mean(dev):+.4f} (MP edge excess {(1+np.sqrt(mL/K))**2-1:.4f}); root-mean-square Frobenius bound {bound:.3f}")
+
+print("(7) sharpness of 2d+2 in every dimension: the planar 5x5 Jacobian of the system |p_j-q'|-|p_j-q| = Delta at five points of the")
+print("    hyperbola branch x = a cosh s, y = b sinh s (a = 1, c = 2, foci (-c,0), (c,0)), evaluated to 40 digits")
+try:
+    from mpmath import mp, mpf, cosh, sinh, sqrt, matrix, det
+    mp.dps = 40; a, c = mpf(1), mpf(2); b = sqrt(c*c - a*a)
+    def row(s):
+        x, y = a*cosh(s), b*sinh(s); rho = sqrt((x + c)**2 + y**2); rhop = sqrt((x - c)**2 + y**2)
+        return [(x + c)/rho, y/rho, -(x - c)/rhop, -y/rhop, mpf(-1)]
+    for S in ([-1.5, -0.7, 0.2, 0.9, 1.6], [-1, -0.5, 0, 0.5, 1]):
+        print(f"   s = {S}: det = {mp.nstr(det(matrix([row(mpf(s)) for s in S])), 15)}")
+except ImportError:
+    print("   mpmath not available; see the paper for the values")
